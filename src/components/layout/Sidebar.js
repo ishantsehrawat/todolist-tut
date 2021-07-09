@@ -106,17 +106,17 @@ export const Sidebar = () => {
         role="button"
         tabIndex={0}
       >
-        <span>
+        {/* <span>
           <FaChevronDown
             className={!showProjects ? 'hidden-projects' : undefined}
           />
         </span>
-        <h2>Projects</h2>
+        <h2>Projects</h2> */}
       </div>
 
-      <ul className="sidebar__projects">{showProjects && <Projects />}</ul>
+      {/* <ul className="sidebar__projects">{showProjects && <Projects />}</ul>
 
-      {showProjects && <AddProject />}
+      {showProjects && <AddProject />} */}
     </div>
   );
 };
